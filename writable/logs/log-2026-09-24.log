@@ -1,0 +1,321 @@
+CRITICAL - 2026-09-24 12:19:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "landing.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Landing.php(9): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Landing->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 12:20:23 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 15:14:21 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(404): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(163): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-09-24 15:14:21 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:75
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(116): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(394): CodeIgniter\I18n\Time::now()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(372): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(95): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(404): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(163): CodeIgniter\Boot::initializeCodeIgniter()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\I18n\TimeTrait.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-24 13:22:52 --> ErrorException: Undefined variable $user
+[Method: GET, Route: customers]
+in APPPATH\Views\customers.php on line 10.
+ 1 APPPATH\Views\customers.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH\Controllers\Customers.php(15): view('customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 13:23:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: customers]
+in APPPATH\Views\customers.php on line 10.
+ 1 APPPATH\Views\customers.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH\Controllers\Customers.php(15): view('customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 13:23:03 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: customers]
+in APPPATH\Views\customers.php on line 10.
+ 1 APPPATH\Views\customers.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\app\\Views\\customers.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('customers', [], true)
+ 5 APPPATH\Controllers\Customers.php(15): view('customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 14:19:56 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Views\users.php on line 32.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('users', [], true)
+ 3 APPPATH\Controllers\Users.php(15): view('users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:23:50 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:16 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:18 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:18 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:19 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:20 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:21 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:24:42 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:25:29 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:25:40 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:26:05 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Customers.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:26:26 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:27:53 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:28:40 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-09-24 16:28:43 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: users]
+in SYSTEMPATH\Database\Database.php on line 147.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH\Model.php(152): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')

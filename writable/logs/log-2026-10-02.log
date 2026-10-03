@@ -1,0 +1,522 @@
+CRITICAL - 2026-10-02 04:01:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Pages.php(9): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->about()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:03:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Customers/customers.php"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Customers.php(15): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:28:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:29:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:29:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:29:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:33:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:35:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:35:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:35:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:35:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:35:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:36:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:39:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:39:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:39:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customers/index.php"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Customers.php(15): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:39:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tasks/index.php"
+[Method: GET, Route: tasks]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Tasks.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Tasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:40:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Welcome.php(17): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Welcome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+CRITICAL - 2026-10-02 04:41:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customers/index.php"
+[Method: GET, Route: customers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Customers.php(15): view()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Customers->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 04:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 04:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 05:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 09:34:53 --> ErrorException: Maximum execution time of 30 seconds exceeded
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Exceptions.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-10-02 09:34:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#13 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-10-02 09:34:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: tasks]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Tasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+ERROR - 2026-10-02 09:35:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#13 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-10-02 09:35:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: tasks]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Tasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+ERROR - 2026-10-02 11:48:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#13 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 C:\Users\Rowgene Gales\Documents\tfa2\app\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(974): App\Controllers\Tasks->index()
+#7 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\Rowgene Gales\Documents\tfa2\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#12 C:\Users\Rowgene Gales\Documents\tfa2\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-10-02 11:48:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: tasks]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Controllers\Tasks.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Tasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 13:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-02 14:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 14:40:18 --> CodeIgniter\Images\Exceptions\ImageException: The framework needs the following extension(s) installed and loaded: "GD".
+[Method: POST, Route: users/update/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 76.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(36): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\Config\Services.php(351): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH\Config\Services.php(342): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get()
+ 9 APPPATH\Controllers\Users.php(100): service()
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->update()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 14:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 14:44:07 --> CodeIgniter\Images\Exceptions\ImageException: The framework needs the following extension(s) installed and loaded: "GD".
+[Method: POST, Route: users/update/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 76.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(36): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\Config\Services.php(351): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH\Config\Services.php(342): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get()
+ 9 APPPATH\Controllers\Users.php(100): service()
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->update()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 14:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 14:46:14 --> CodeIgniter\Images\Exceptions\ImageException: The framework needs the following extension(s) installed and loaded: "GD".
+[Method: POST, Route: users/update/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 76.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(36): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\Config\Services.php(351): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH\Config\Services.php(342): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get()
+ 9 APPPATH\Controllers\Users.php(100): service()
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->update()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 14:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 14:49:40 --> CodeIgniter\Images\Exceptions\ImageException: The framework needs the following extension(s) installed and loaded: "GD".
+[Method: POST, Route: users/update/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 76.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(36): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\Config\Services.php(351): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH\Config\Services.php(342): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get()
+ 9 APPPATH\Controllers\Users.php(100): service()
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->update()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-02 15:10:34 --> ParseError: syntax error, unexpected variable "$userModel", expecting "function"
+[Method: GET, Route: users/edit/4]
+in APPPATH\Controllers\Users.php on line 117.
+ 1 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH\Router\Router.php(790): class_exists()
+ 4 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 5 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 6 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Rowgene Gales\\Documents\\tfa2\\public\\index.php')
+DEBUG - 2026-10-02 15:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
